@@ -26,10 +26,17 @@
     <![endif]-->
 
     <script>
-        function goto_url(dir, new_window)
-        { // 직접 링크로 페이지 이동하기. (주소, 새로운 창으로 열지 여부(기본 true))
-            var url = 'https://job-exp.github.io/' + dir;
+        function goto_url(name, open_url, new_window)
+        {
+            open_url = typeof open_url !== 'undefined' ? open_url : true;
             new_window = typeof new_window !== 'undefined' ? new_window : true;
+            
+            if (open_url)
+                var url = name;
+            else
+                var url = window.location.href + name;
+                //var url = 'https://job-exp.github.io/' + name;
+            
             if (new_window)
                 window.open(url);
             else
@@ -44,14 +51,22 @@
         <h2>실습 목록</h2>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p>&nbsp;</p>
+
+        <h4>게임 분석</h4>
         <p><button class="btn btn-block btn-success" onclick="goto_url('codemaster')">코드 마스터</button></p>
         <p><button class="btn btn-block btn-success" onclick="goto_url('writedot')">도트 그리기</button></p>
         <div style="width: 100%; border-bottom: 1px solid #6e6e6e; margin: 50px 0 30px 0; padding: 1px"></div>
+
         <h4>기획서 샘플</h4>
         <p><button class="btn btn-block btn-info" onclick="goto_url('document/concept.pdf')">컨셉 기획서</button></p>
         <p><button class="btn btn-block btn-info" onclick="goto_url('document/system.pdf')">시스템 기획서</button></p>
         <p><button class="btn btn-block btn-info" onclick="goto_url('document/ui.pdf')">UI 기획서</button></p>
+        <div style="width: 100%; border-bottom: 1px solid #6e6e6e; margin: 50px 0 30px 0; padding: 1px"></div>
+
+        <h4>코딩 실습</h4>
+        <p><button class="btn btn-block btn-primary" onclick="goto_url('https://scratch.mit.edu/projects/247931071/',true,true)">스크래치 : 피아노 연주 코딩하기</button></p>
+        <p><button class="btn btn-block btn-primary" onclick="goto_url('https://scratch.mit.edu/projects/247931901/',true,true)">스크래치 : 피아노 연주 완료</button></p>
+
     </div>
 </body>
 

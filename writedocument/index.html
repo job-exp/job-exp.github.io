@@ -26,8 +26,12 @@
 
 
     <script>
-        var d = new Date();
-        $('#wr_date').val(d.getFullYear()+'년 '+(d.getMonth()+1)+'월 '+d.getDate()+'일');
+        $(document).ready(function()
+        {
+            var d = new Date();
+            $('#wr_date').val(d.getFullYear()+'년 '+(d.getMonth()+1)+'월 '+d.getDate()+'일');
+        });
+        
         function write_document()
         {
             $('#frm').submit();

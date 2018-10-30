@@ -261,7 +261,6 @@
             </sources>
             <sources dir="${basedir}">
                 <file name="src/resource.js"/>
-                <file name="src/app.js"/>
                 <file name="src/game.js"/>
                 <file name="src/stage.js"/>
                 <file name="main.js"/>

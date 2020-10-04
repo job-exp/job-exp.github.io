@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>눈으로만 말해요</title>
+    <link rel="stylesheet" href="../files/bootstrap-4/css/bootstrap.min.css">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script-->
+    <script src="../files/jquery-2.1.4.min.js"></script>
+    <script src="../files/bootstrap-4/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../files/ie8-responsive-file-warning.js"></script>
+    <script src="../files/html5shiv.min.js"></script>
+    <script src="../files/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../src/common.js?ver=1.0.2"></script>
+    <script src="../src/onlyuseeye.js?ver=1.0.2"></script>
+    <script src="../src/writeDot.js?ver=1.0.1"></script>
+    <link rel="stylesheet" href="../src/common.css?ver=1.0.2">
+</head>
+<body>
+<p></p>
+<p></p>
+<div class="container">
+    <div class="row">
+        <div id="canvas-ani" class="col-12 col-md">
+            <div id="canvas-ani0" style="width: 480px; height: 480px; background-image: url('images/eye0.png'); z-index: 2; position: absolute"></div>
+            <div id="canvas-ani1" style="width: 480px; height: 480px; background-image: url('images/eye1.png'); z-index: 1; position: absolute"></div>
+            <div id="play-button" style="width: 480px; height: 480px; z-index: 99; position: absolute; padding-top: 240px; text-align: center">
+                <button class="btn btn-primary btn-lg" onclick="onlyuseeye.play()" id="play-button-text">시작</button>
+            </div>
+        </div>
+        <div id="twinkle" class="col-12 col-md">
+            <h4 id="step-title">글자 번호판 만큼 눈 깜빡이기</h4>
+            <p>&nbsp;</p>
+            <table class="table table-striped">
+                <tbody>
+                <tr><th>자모</th><td>ㄱ</td><td>ㄴ</td><td>ㄷ</td><td>ㄹ</td><td>ㅁ</td><td>ㅂ</td><td>ㅅ</td></tr>
+                <tr><th>번호</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                <tr><th>자모</th><td>ㅇ</td><td>ㅈ</td><td>ㅊ</td><td>ㅋ</td><td>ㅌ</td><td>ㅍ</td><td>ㅎ</td></tr>
+                <tr><th>번호</th><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                <tr><th>자모</th><td>ㅏ</td><td>ㅑ</td><td>ㅓ</td><td>ㅕ</td><td>ㅗ</td><td>ㅛ</td><td>ㅜ</td></tr>
+                <tr><th>번호</th><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                <tr><th>자모</th><td>ㅠ</td><td>ㅡ</td><td>ㅣ</td><td>ㅐ</td><td>ㅔ</td><td></td><td></td></tr>
+                <tr><th>번호</th><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="canvas-commnad" class="col-12 col-md-4">
+
+        </div>
+        <div id="dots" class="col-12 col-md-8">
+            <table id="tbl-dots" class="table table-bordered"></table>
+        </div>
+
+
+
+        <div class="col-12" style="padding-top: 50px;"></div>
+        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-3">
+            <input id="answer" class="form-control form-control-lg" type="text" placeholder="정답은...?">
+        </div>
+        <div class="col-12 col-md-3">
+            <button class="btn btn-lg btn-danger" onclick="common.submit()">정답제출</button>
+            <!--button class="btn btn-lg btn-secondary" onclick="onlyuseeye.giveup()">다음문제</button-->
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

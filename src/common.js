@@ -28,10 +28,12 @@ common.changeStep = function ()
             $('#play-button-text').html('첫번째 문제 시작');
             break;
         case 1:
+            onlyuseeye.load(true);
             $('#step-title').html('글자 번호판 만큼 눈 깜빡이기 2/3');
             $('#play-button-text').html('두번째 문제 시작');
             break;
         case 2:
+            onlyuseeye.load(true);
             $('#step-title').html('글자 번호판 만큼 눈 깜빡이기 3/3');
             $('#play-button-text').html('세번째 문제 시작');
             break;
@@ -48,6 +50,7 @@ common.changeStep = function ()
 
 common.submit = function ()
 {
+    onlyuseeye.setAnimate('ready');
     for (var i = 0; i < common.answerList[common.step].length; i++)
     {
         if ($('#answer').val() == common.answerList[common.step][i])

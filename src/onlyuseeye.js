@@ -8,6 +8,7 @@ var onlyuseeye = function ()
     ];
     onlyuseeye.keyframe = 0;
     onlyuseeye.playTime = 0;
+    onlyuseeye.playPos = false;
 
 
     common.changeStep();
@@ -15,12 +16,12 @@ var onlyuseeye = function ()
 
 onlyuseeye.load = function (type)
 {
+    onlyuseeye.setAnimate('ready');
     switch (type)
     {
         case true:
             $('#canvas-ani').show();
             $('#twinkle').show();
-            onlyuseeye.setAnimate('ready');
             break;
         case false:
             $('#canvas-ani').hide();
@@ -41,6 +42,7 @@ onlyuseeye.giveup = function ()
 
 onlyuseeye.play = function ()
 {
+    onlyuseeye.playPos = true;
     onlyuseeye.setAnimate('play');
 };
 
@@ -52,6 +54,7 @@ onlyuseeye.setAnimate = function (type)
             $('#play-button').show();
             onlyuseeye.canvas[0].css({'opacity':0.5});
             onlyuseeye.canvas[1].css({'opacity':0});
+            onlyuseeye.stop();
             break;
         case 'play':
             $('#play-button').hide();
@@ -69,6 +72,9 @@ onlyuseeye.setAnimate = function (type)
 
 onlyuseeye.animate = function ()
 {
+    if (!onlyuseeye.playPos)
+        return;
+    
     onlyuseeye.playTime++;
     onlyuseeye.canvas[0].css({'opacity':0});
     onlyuseeye.canvas[0].delay(300).queue(function ()
@@ -103,4 +109,15 @@ onlyuseeye.animate = function ()
             onlyuseeye.animate();
         }
     });
+};
+
+onlyuseeye.stop = function ()
+{
+    onlyuseeye.playPos = false;
+    onlyuseeye.playTime = 0;
+    onlyuseeye.keyframe = 0;
+    onlyuseeye.canvas[0].stop();
+    onlyuseeye.canvas[1].stop();
+    onlyuseeye.canvas[0].dequeue();
+    onlyuseeye.canvas[1].dequeue();
 };

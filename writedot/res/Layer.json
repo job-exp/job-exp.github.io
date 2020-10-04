@@ -1,0 +1,3142 @@
+{
+  "ID": "bfd66697-83eb-42c0-a723-79686ceba651",
+  "Version": "3.10.0.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 53,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "BottomMargin": 708.0,
+            "Tag": 47,
+            "ActionTag": 450750233,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "BottomMargin": 708.0,
+            "Tag": 48,
+            "ActionTag": 846834935,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "BottomMargin": 708.0,
+            "Tag": 49,
+            "ActionTag": 1717211253,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "BottomMargin": 708.0,
+            "Tag": 50,
+            "ActionTag": 1054363419,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "BottomMargin": 708.0,
+            "Tag": 51,
+            "ActionTag": -1796901421,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "BottomMargin": 708.0,
+            "Tag": 52,
+            "ActionTag": -1023986282,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "BottomMargin": 708.0,
+            "Tag": 54,
+            "ActionTag": -1056768537,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "BottomMargin": 708.0,
+            "Tag": 55,
+            "ActionTag": -1398046981,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "BottomMargin": 708.0,
+            "Tag": 56,
+            "ActionTag": -1879129570,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "BottomMargin": 708.0,
+            "Tag": 57,
+            "ActionTag": 1905253404,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "BottomMargin": 708.0,
+            "Tag": 58,
+            "ActionTag": 1528709911,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 660.0,
+              "Y": 800.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5156,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 660.0,
+            "RightMargin": 528.0,
+            "BottomMargin": 708.0,
+            "Tag": 59,
+            "ActionTag": 1479899213,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 60,
+            "ActionTag": 858706554,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 61,
+            "ActionTag": 1775497561,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 62,
+            "ActionTag": 914536554,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_3_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 63,
+            "ActionTag": -349145069,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 64,
+            "ActionTag": 733988183,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 65,
+            "ActionTag": 699636326,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 66,
+            "ActionTag": 285258294,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 67,
+            "ActionTag": -1177649674,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 68,
+            "ActionTag": -1295617964,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 72,
+            "ActionTag": 304209849,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 73,
+            "ActionTag": 1063390629,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 660.0,
+              "Y": 740.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5156,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 660.0,
+            "RightMargin": 528.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 648.0,
+            "Tag": 74,
+            "ActionTag": 964652951,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 75,
+            "ActionTag": 1300938203,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 76,
+            "ActionTag": 934155562,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 77,
+            "ActionTag": -1474884528,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 78,
+            "ActionTag": 74487331,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 79,
+            "ActionTag": -136356044,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 80,
+            "ActionTag": -1387547412,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 81,
+            "ActionTag": -498633811,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 82,
+            "ActionTag": -586456087,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 83,
+            "ActionTag": 1561386980,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-l.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 84,
+            "ActionTag": -2076349829,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_33",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-l.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 660.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5156,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 660.0,
+            "RightMargin": 528.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 85,
+            "ActionTag": 1048699042,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_33_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 680.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 0.85
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "TopMargin": 120.0,
+            "BottomMargin": 588.0,
+            "Tag": 86,
+            "ActionTag": 1674993407,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 87,
+            "ActionTag": 1536488884,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 88,
+            "ActionTag": 1891935920,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 89,
+            "ActionTag": -11405018,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 90,
+            "ActionTag": 1417873778,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 91,
+            "ActionTag": -1580769465,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 92,
+            "ActionTag": 1246549594,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 93,
+            "ActionTag": -531286912,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 94,
+            "ActionTag": -1503259348,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 95,
+            "ActionTag": 297218127,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 96,
+            "ActionTag": 370838894,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_2_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 97,
+            "ActionTag": -1420141753,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 98,
+            "ActionTag": 251733970,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 99,
+            "ActionTag": -1674904486,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 100,
+            "ActionTag": 1054030411,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 101,
+            "ActionTag": -69802309,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 102,
+            "ActionTag": 1548674456,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_2_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 103,
+            "ActionTag": -897743943,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-d.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 660.0,
+              "Y": 620.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5156,
+              "Y": 0.775
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 660.0,
+            "RightMargin": 528.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 528.0,
+            "Tag": 104,
+            "ActionTag": -454484283,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_3_0_0_2_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 105,
+            "ActionTag": -1199470802,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_0_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 106,
+            "ActionTag": 1397771342,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 107,
+            "ActionTag": 1841696715,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 108,
+            "ActionTag": -1956508054,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_1_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 109,
+            "ActionTag": -36778541,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_4_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 660.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5156,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 660.0,
+            "RightMargin": 528.0,
+            "TopMargin": 240.0,
+            "BottomMargin": 468.0,
+            "Tag": 110,
+            "ActionTag": 1416148761,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_5_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-l.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "RightMargin": 1188.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 111,
+            "ActionTag": 878422633,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_33_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-l.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 60.0,
+            "RightMargin": 1128.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 112,
+            "ActionTag": 1916212488,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_33_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0938,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1068.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 113,
+            "ActionTag": -1374513777,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_4_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1406,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 1008.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 114,
+            "ActionTag": -2114811527,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_5_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 240.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1875,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 948.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 116,
+            "ActionTag": -959311055,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2344,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 300.0,
+            "RightMargin": 888.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 117,
+            "ActionTag": 1452652381,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2812,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": 828.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 118,
+            "ActionTag": 298563433,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 420.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3281,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 420.0,
+            "RightMargin": 768.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 119,
+            "ActionTag": -1785847335,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_0_2_0_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-u.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.375,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": 708.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 120,
+            "ActionTag": 1528250157,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_17_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "move-r.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4219,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 540.0,
+            "RightMargin": 648.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 121,
+            "ActionTag": -1457361850,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "Sprite_2_0_0_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "draw.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 500.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4688,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.115
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 588.0,
+            "TopMargin": 300.0,
+            "BottomMargin": 408.0,
+            "Tag": 122,
+            "ActionTag": 732844926,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "Name": "draw_5_1_0_0",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 800.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "draw.png",
+        "move-d.png",
+        "move-l.png",
+        "move-r.png",
+        "move-u.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

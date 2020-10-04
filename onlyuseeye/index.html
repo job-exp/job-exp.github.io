@@ -1,8 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="madpanda">
+
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="format-detection" content="telephone=no" />
+
     <title>눈으로만 말해요</title>
+
     <link rel="stylesheet" href="../files/bootstrap-4/css/bootstrap.min.css">
     <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script-->
     <script src="../files/jquery-2.1.4.min.js"></script>
@@ -13,64 +23,127 @@
     <script src="../files/html5shiv.min.js"></script>
     <script src="../files/respond.min.js"></script>
     <![endif]-->
-
-    <script src="../src/common.js?ver=1.0.2"></script>
-    <script src="../src/onlyuseeye.js?ver=1.0.2"></script>
-    <script src="../src/writeDot.js?ver=1.0.1"></script>
-    <link rel="stylesheet" href="../src/common.css?ver=1.0.2">
 </head>
+
+<style>
+    td {
+        text-align: center;
+    }
+    #tbl_on_mouse td:hover {
+        background-color: rgba(119,0,0,0.1);
+    }
+</style>
+
 <body>
-<p></p>
-<p></p>
-<div class="container">
+<div class="container" style="margin-top: 50px;">
     <div class="row">
-        <div id="canvas-ani" class="col-12 col-md">
-            <div id="canvas-ani0" style="width: 480px; height: 480px; background-image: url('images/eye0.png'); z-index: 2; position: absolute"></div>
-            <div id="canvas-ani1" style="width: 480px; height: 480px; background-image: url('images/eye1.png'); z-index: 1; position: absolute"></div>
-            <div id="play-button" style="width: 480px; height: 480px; z-index: 99; position: absolute; padding-top: 240px; text-align: center">
-                <button class="btn btn-primary btn-lg" onclick="onlyuseeye.play()" id="play-button-text">시작</button>
+        <div class="col-3">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#method0" role="tab" aria-controls="method0">글자 번호판 만큼 눈 깜빡이기</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#method1" role="tab" aria-controls="method1">모스 부호 이용하기</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#method2" role="tab" aria-controls="method2">글자 순서판 이용하기</a>
             </div>
         </div>
-        <div id="twinkle" class="col-12 col-md">
-            <h4 id="step-title">글자 번호판 만큼 눈 깜빡이기</h4>
-            <p>&nbsp;</p>
-            <table class="table table-striped">
-                <tbody>
-                <tr><th>자모</th><td>ㄱ</td><td>ㄴ</td><td>ㄷ</td><td>ㄹ</td><td>ㅁ</td><td>ㅂ</td><td>ㅅ</td></tr>
-                <tr><th>번호</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
-                <tr><th>자모</th><td>ㅇ</td><td>ㅈ</td><td>ㅊ</td><td>ㅋ</td><td>ㅌ</td><td>ㅍ</td><td>ㅎ</td></tr>
-                <tr><th>번호</th><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
-                <tr><th>자모</th><td>ㅏ</td><td>ㅑ</td><td>ㅓ</td><td>ㅕ</td><td>ㅗ</td><td>ㅛ</td><td>ㅜ</td></tr>
-                <tr><th>번호</th><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
-                <tr><th>자모</th><td>ㅠ</td><td>ㅡ</td><td>ㅣ</td><td>ㅐ</td><td>ㅔ</td><td></td><td></td></tr>
-                <tr><th>번호</th><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td></td><td></td></tr>
-                </tbody>
-            </table>
-        </div>
+        <div class="col-9">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="method0" role="tabpanel" aria-labelledby="list-home-list">
+                    <h4>글자 번호판 만큼 눈 깜빡이기</h4>
+                    <p>&nbsp;</p>
+                    <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                            <th>자모</th><td>ㄱ</td><td>ㄴ</td><td>ㄷ</td><td>ㄹ</td><td>ㅁ</td><td>ㅂ</td><td>ㅅ</td>
+                        </tr>
+                        <tr>
+                            <th>번호</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅇ</td><td>ㅈ</td><td>ㅊ</td><td>ㅋ</td><td>ㅌ</td><td>ㅍ</td><td>ㅎ</td>
+                        </tr>
+                        <tr>
+                            <th>번호</th><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅏ</td><td>ㅑ</td><td>ㅓ</td><td>ㅕ</td><td>ㅗ</td><td>ㅠ</td><td>ㅜ</td>
+                        </tr>
+                        <tr>
+                            <th>번호</th><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅠ</td><td>ㅡ</td><td>ㅣ</td><td>ㅐ</td><td>ㅔ</td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <th>번호</th><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td></td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-        <div id="canvas-commnad" class="col-12 col-md-4">
+                <div class="tab-pane fade" id="method1" role="tabpanel" aria-labelledby="list-profile-list">
+                    <h4>모스 부호 이용하기</h4>
+                    <p>&nbsp;</p>
+                    <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                            <th>자모</th><td>ㄱ</td><td>ㄴ</td><td>ㄷ</td><td>ㄹ</td><td>ㅁ</td><td>ㅂ</td><td>ㅅ</td>
+                        </tr>
+                        <tr>
+                            <th>부호</th><td>• - • •</td><td>• • - •</td><td>- • • •</td><td>• • • -</td><td>- -</td><td>• - -</td><td>- - •</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅇ</td><td>ㅈ</td><td>ㅊ</td><td>ㅋ</td><td>ㅌ</td><td>ㅍ</td><td>ㅎ</td>
+                        </tr>
+                        <tr>
+                            <th>부호</th><td>- • -</td><td>• - - •</td><td>- • - •</td><td>- • • -</td><td>- - • •</td><td>- - -</td><td>• - - -</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅏ</td><td>ㅑ</td><td>ㅓ</td><td>ㅕ</td><td>ㅗ</td><td>ㅠ</td><td>ㅜ</td>
+                        </tr>
+                        <tr>
+                            <th>부호</th><td>•</td><td>• •</td><td>-</td><td>• • •</td><td>• -</td><td>- •</td><td>• • • •</td>
+                        </tr>
+                        <tr>
+                            <th>자모</th><td>ㅠ</td><td>ㅡ</td><td>ㅣ</td><td>ㅐ</td><td>ㅔ</td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <th>부호</th><td>• - •</td><td>- • •</td><td>• • -</td><td>- - • -</td><td>- • - -</td><td></td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-        </div>
-        <div id="dots" class="col-12 col-md-8">
-            <table id="tbl-dots" class="table table-bordered"></table>
-        </div>
+                <div class="tab-pane fade" id="method2" role="tabpanel" aria-labelledby="list-profile-list">
+                    <h4>글자 순서판 이용하기</h4>
+                    <p>&nbsp;</p>
+                    <table class="table table-striped" id="tbl_on_mouse">
+                        <tbody>
+                        <tr>
+                            <td>ㅏ</td><td>ㅓ</td><td>ㅑ</td><td>ㅕ</td><td>ㅗ</td>
+                        </tr>
+                        <tr>
+                            <td>ㅛ</td><td>ㅜ</td><td>ㅠ</td><td>ㅡ</td><td>ㅣ</td>
+                        </tr>
+                        <tr>
+                            <td>ㅁ</td><td>ㄱ</td><td>ㄴ</td><td>ㄷ</td><td>ㄹ</td>
+                        </tr>
+                        <tr>
+                            <td>ㅂ</td><td>ㅅ</td><td>ㅇ</td><td>ㅈ</td><td>ㅊ</td>
+                        </tr>
+                        <tr>
+                            <td>ㅋ</td><td>ㅌ</td><td>ㅍ</td><td>ㅎ</td><td>ㅐ</td>
+                        </tr>
+                        <tr>
+                            <td>ㅔ</td><td></td><td></td><td></td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
 
-
-        <div class="col-12" style="padding-top: 50px;"></div>
-        <div class="col-12 col-md-6"></div>
-        <div class="col-12 col-md-3">
-            <input id="answer" class="form-control form-control-lg" type="text" placeholder="정답은...?">
-        </div>
-        <div class="col-12 col-md-3">
-            <button class="btn btn-lg btn-danger" onclick="common.submit()">정답제출</button>
-            <!--button class="btn btn-lg btn-secondary" onclick="onlyuseeye.giveup()">다음문제</button-->
+            </div>
         </div>
     </div>
-
 </div>
-
-
-
 </body>
+
 </html>

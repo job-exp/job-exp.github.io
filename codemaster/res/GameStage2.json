@@ -1,0 +1,529 @@
+{
+  "ID": "2b94cf41-682d-46e5-ba18-e5020ca5a701",
+  "Version": "3.10.0.0",
+  "Name": "GameStage2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "GameScene2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 23,
+            "ActionTag": 1954499998,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "GameScene0_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "Stage : 3",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 114.0,
+              "Y": 668.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 94,
+              "G": 45,
+              "B": 45
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0891,
+              "Y": 0.9278
+            },
+            "PreSize": {
+              "X": 0.1508,
+              "Y": 0.075
+            },
+            "LeftMargin": 17.5,
+            "RightMargin": 1069.5,
+            "TopMargin": 25.0,
+            "BottomMargin": 641.0,
+            "Tag": 27,
+            "ActionTag": -720808396,
+            "Size": {
+              "X": 193.0,
+              "Y": 54.0
+            },
+            "Name": "StageName",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "btnRun_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "btnRun_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "btnRun_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 170,
+            "Scale9Height": 38,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1171.0,
+              "Y": 60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9148,
+              "Y": 0.0833
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.0833
+            },
+            "LeftMargin": 1071.0,
+            "RightMargin": 9.0,
+            "TopMargin": 630.0,
+            "BottomMargin": 30.0,
+            "Tag": 10,
+            "ActionTag": 48413115,
+            "Size": {
+              "X": 200.0,
+              "Y": 60.0
+            },
+            "Name": "btnRun",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "btnReset_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "btnReset_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "btnReset_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 110,
+            "Scale9Height": 38,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 994.0,
+              "Y": 60.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7766,
+              "Y": 0.0833
+            },
+            "PreSize": {
+              "X": 0.1094,
+              "Y": 0.0833
+            },
+            "LeftMargin": 924.0,
+            "RightMargin": 216.0,
+            "TopMargin": 630.0,
+            "BottomMargin": 30.0,
+            "Tag": 11,
+            "ActionTag": 335903166,
+            "Size": {
+              "X": 140.0,
+              "Y": 60.0
+            },
+            "Name": "btnReset",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 40,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "0",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 841.0,
+              "Y": 59.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 71,
+              "G": 51,
+              "B": 52
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.657,
+              "Y": 0.0819
+            },
+            "PreSize": {
+              "X": 0.0859,
+              "Y": 0.0694
+            },
+            "LeftMargin": 786.0,
+            "RightMargin": 384.0,
+            "TopMargin": 636.0,
+            "BottomMargin": 34.0,
+            "Tag": 11,
+            "ActionTag": 170692578,
+            "Size": {
+              "X": 110.0,
+              "Y": 50.0
+            },
+            "Name": "countDia",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "commandBlank.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 994.0,
+              "Y": 479.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.7766,
+              "Y": 0.6653
+            },
+            "PreSize": {
+              "X": 0.0547,
+              "Y": 0.0972
+            },
+            "LeftMargin": 994.0,
+            "RightMargin": 216.0,
+            "TopMargin": 171.0,
+            "BottomMargin": 479.0,
+            "Tag": 66,
+            "ActionTag": -1488991101,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "pos3",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "commandBlank.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 994.0,
+              "Y": 563.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.7766,
+              "Y": 0.7819
+            },
+            "PreSize": {
+              "X": 0.0547,
+              "Y": 0.0972
+            },
+            "LeftMargin": 994.0,
+            "RightMargin": 216.0,
+            "TopMargin": 87.0,
+            "BottomMargin": 563.0,
+            "Tag": 69,
+            "ActionTag": 1952811352,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "pos2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "commandBlank.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 905.0,
+              "Y": 561.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.707,
+              "Y": 0.7792
+            },
+            "PreSize": {
+              "X": 0.0547,
+              "Y": 0.0972
+            },
+            "LeftMargin": 905.0,
+            "RightMargin": 305.0,
+            "TopMargin": 89.0,
+            "BottomMargin": 561.0,
+            "Tag": 72,
+            "ActionTag": -1348355797,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "pos1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "commandBlank.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 819.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.6398,
+              "Y": 0.7778
+            },
+            "PreSize": {
+              "X": 0.0547,
+              "Y": 0.0972
+            },
+            "LeftMargin": 819.0,
+            "RightMargin": 391.0,
+            "TopMargin": 90.0,
+            "BottomMargin": 560.0,
+            "Tag": 75,
+            "ActionTag": 1140994400,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "pos0",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "commandBlank.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1083.0,
+              "Y": 479.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8461,
+              "Y": 0.6653
+            },
+            "PreSize": {
+              "X": 0.0547,
+              "Y": 0.0972
+            },
+            "LeftMargin": 1083.0,
+            "RightMargin": 127.0,
+            "TopMargin": 171.0,
+            "BottomMargin": 479.0,
+            "Tag": 78,
+            "ActionTag": 123662463,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "pos4",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "btnReset_0.png",
+        "btnReset_1.png",
+        "btnRun_0.png",
+        "btnRun_1.png",
+        "commandBlank.json",
+        "GameScene2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

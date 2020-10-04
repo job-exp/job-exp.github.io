@@ -8,7 +8,7 @@ $(window).load(function ()
 
 var common = function ()
 {
-    common.step = 3;
+    common.step = 0;
     common.answerList = [['나'],['게임'],['묵호중학교'], ['ok', 'OK', 'Ok', 'oK']];
 };
 

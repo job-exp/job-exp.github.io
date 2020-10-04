@@ -63,3 +63,8 @@ writeDot.select = function (e)
 {
     $(e).toggleClass('selected');
 };
+
+writeDot.reset = function ()
+{
+    $('#tbl-dots td').removeClass('selected');
+};

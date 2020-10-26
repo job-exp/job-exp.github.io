@@ -1,0 +1,25 @@
+#tbl-dots td {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+}
+
+#tbl-dots td.selected {
+    background-color: black;
+}
+
+.commands {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+
+.commands-left {background-color: #7ff36b;}
+.commands-right {background-color: #db6c63;}
+.commands-up {background-color: #ffd800;}
+.commands-down {background-color: #697cf1;}
+.commands-write {background-color: #e5b4e8;}

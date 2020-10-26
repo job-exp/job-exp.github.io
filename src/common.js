@@ -1,14 +1,18 @@
-$(window).load(function ()
+$(document).load(function ()
 {
     common();
     onlyuseeye();
     writeDot();
+
+    $('#pdf_viewer').hide();
+    var d = new Date();
+    $('#wr_date').val(d.getFullYear()+'년 '+(d.getMonth()+1)+'월 '+d.getDate()+'일');
 });
 
 
 var common = function ()
 {
-    common.step = 0;
+    common.step = 3;
     common.answerList = [['나'],['게임'],['묵호중학교'], ['ok', 'OK', 'Ok', 'oK']];
 };
 

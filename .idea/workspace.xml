@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cf9328-c9a0-4705-995e-8147ce276af7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/writeDocument.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.js" afterDir="false" />
@@ -22,14 +24,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>true,</find>
-      <find>pdf_viewer</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -103,7 +102,12 @@
       <workItem from="1542334916289" duration="351000" />
       <workItem from="1542447548931" duration="42000" />
       <workItem from="1543314300113" duration="2248000" />
-      <workItem from="1601801355240" duration="945000" />
+      <workItem from="1601801355240" duration="1486000" />
+      <workItem from="1602035204847" duration="107000" />
+      <workItem from="1602393263510" duration="700000" />
+      <workItem from="1602847720082" duration="8000" />
+      <workItem from="1603635294748" duration="2189000" />
+      <workItem from="1603673750090" duration="5724000" />
     </task>
     <servers />
   </component>
@@ -115,7 +119,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

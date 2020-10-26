@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>기획서 작성하기</title>
+    <link rel="stylesheet" href="../files/bootstrap-4/css/bootstrap.min.css">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script-->
+    <script src="../files/jquery-2.1.4.min.js"></script>
+    <script src="../files/bootstrap-4/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../files/ie8-responsive-file-warning.js"></script>
+    <script src="../files/html5shiv.min.js"></script>
+    <script src="../files/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="proposal.css?ver=1.0.0">
+    <script src="../common.js?ver=1.0.0"></script>
+    <script src="proposal.js?ver=1.0.0"></script>
+    <script type="text/javascript" src="../files/jsPDF/dist/jspdf.min.js"></script>
+    <script type="text/javascript" src="../files/html2canvas.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_1PX2xNhYcX4ft4OrkakLt");
+        })();
+
+        $(document).ready(function()
+        {
+            proposal();
+        });
+    </script>
+</head>
+<body>
+<div class="container" style="padding: 20px 0 20px 0; width: 600px">
+    <h2>컨셉 기획서 작성하기</h2>
+    <p>&nbsp;</p>
+    <!--form id="frm" method="post" action="http://wbeachpension.cafe24.com/tcpdf/document-write.php"-->
+    <form>
+        <div class="form-group">
+            <label for="wr_name">작성자 이름</label>
+            <input type="text" class="form-control" id="wr_name" name="wr_name" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="wr_date">작성자 일자</label>
+            <input type="text" readonly class="form-control" id="wr_date" name="wr_date" value="">
+        </div>
+        <div class="form-group">
+            <label for="wr_title">게임 제목</label>
+            <input type="text" class="form-control" id="wr_title" name="wr_title" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="wr_document">시나리오</label>
+            <textarea class="form-control" id="wr_document" name="wr_document" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="wr_char">주인공</label>
+            <input type="text" class="form-control" id="wr_char" name="wr_char" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label for="wr_background">배경</label>
+            <input type="text" class="form-control" id="wr_background" name="wr_background" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label for="wr_object">장애물</label>
+            <input type="text" class="form-control" id="wr_object" name="wr_object" placeholder="">
+        </div>
+
+    </form>
+    <p>
+        <button class="btn btn-lg btn-success" onclick="proposal.save_pdf()">저장하기</button>
+        <!--button class="btn btn-lg btn-success" data-toggle="modal" data-target="#sendEmail">이메일 보내기</button-->
+        <button class="btn btn-lg btn-info" onclick="proposal.next()">다음으로 넘어가기</button>
+    </p>
+</div>
+
+<div class="container" id="pdf_viewer" style="padding: 20px;">
+    <h1 id="pr_title" style="text-align: center"></h1>
+    <div style="float: right; font-size: 1.2em;">
+        <p>작성자 : <span id="pr_name"></span></p>
+        <p>작성일 : <span id="pr_date"></span></p>
+    </div>
+    <div id="pr_document" style="margin-top: 120px; font-size: 1.2em;"></div>
+</div>
+
+<div class="modal fade" id="sendEmail" tabindex="-1" role="dialog" aria-labelledby="sendEmail" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">이메일 보내기</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="to_email" class="col-form-label">받을 메일 주소:</label>
+                        <input type="text" class="form-control" id="to_email">
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary" onclick="proposal.send_email()">이메일 보내기</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

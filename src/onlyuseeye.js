@@ -74,7 +74,7 @@ onlyuseeye.animate = function ()
 {
     if (!onlyuseeye.playPos)
         return;
-    
+
     onlyuseeye.playTime++;
     onlyuseeye.canvas[0].css({'opacity':0});
     onlyuseeye.canvas[0].delay(300).queue(function ()

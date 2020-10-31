@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cf9328-c9a0-4705-995e-8147ce276af7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eye/eye.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eye/eye.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eye/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot/dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/dot/dot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/eye0.png" beforeDir="false" afterPath="$PROJECT_DIR$/eye/images/eye0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/eye1.png" beforeDir="false" afterPath="$PROJECT_DIR$/eye/images/eye1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proposal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proposal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proposal/proposal.js" beforeDir="false" afterPath="$PROJECT_DIR$/proposal/proposal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +75,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eye" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -106,6 +123,8 @@
       <workItem from="1603673750090" duration="5724000" />
       <workItem from="1603771543641" duration="454000" />
       <workItem from="1603777787037" duration="23000" />
+      <workItem from="1604063911779" duration="1365000" />
+      <workItem from="1604147935982" duration="5165000" />
     </task>
     <servers />
   </component>

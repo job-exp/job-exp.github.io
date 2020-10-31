@@ -21,6 +21,7 @@ common.gotoURL = function (page)
     location.href = window.location.href + page;
 };
 
+
 common.changeStep = function ()
 {
     switch (common.step)

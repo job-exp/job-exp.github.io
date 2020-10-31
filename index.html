@@ -15,10 +15,18 @@
     <![endif]-->
 
     <script src="common.js?ver=1.0.0"></script>
+    <link rel="stylesheet" href="common.css?ver=1.0.0">
 </head>
 <body>
-<script>
+<!--script>
     common.gotoURL(window.location.href + 'dot/');
-</script>
+</script-->
+<div class="container">
+    <h1>게임실습</h1>
+    <ul class="list-group">
+        <li class="list-group-item" onclick="common.gotoList('eye')">초등학생용</li>
+        <li class="list-group-item" onclick="common.gotoList('dot')">중고등학생용</li>
+    </ul>
+</div>
 </body>
 </html>

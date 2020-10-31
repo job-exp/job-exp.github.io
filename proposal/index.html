@@ -15,8 +15,8 @@
     <![endif]-->
 
     <link rel="stylesheet" href="proposal.css?ver=1.0.0">
-    <script src="../common.js?ver=1.0.0"></script>
-    <script src="proposal.js?ver=1.0.0"></script>
+    <script src="../common.js?ver=1.0.1"></script>
+    <script src="proposal.js?ver=1.0.1"></script>
     <script type="text/javascript" src="../files/jsPDF/dist/jspdf.min.js"></script>
     <script type="text/javascript" src="../files/html2canvas.min.js"></script>
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
@@ -73,7 +73,7 @@
     <p>
         <button class="btn btn-lg btn-success" onclick="proposal.save_pdf()">저장하기</button>
         <!--button class="btn btn-lg btn-success" data-toggle="modal" data-target="#sendEmail">이메일 보내기</button-->
-        <button class="btn btn-lg btn-info" onclick="proposal.next()">다음으로 넘어가기</button>
+        <button class="btn btn-lg btn-info" onclick="common.next('proposal')">다음으로 넘어가기</button>
     </p>
 </div>
 

@@ -59,13 +59,3 @@ dot.reset = function ()
 {
     $('#tbl-dots td').removeClass('selected');
 };
-
-dot.next = function ()
-{
-    var inputStr = prompt('다음 챕터로 넘기는 비밀번호를 입력하세요.', '');
-    if (inputStr == common.password.dot)
-        common.gotoURL(common.nextURL.dot);
-    else
-        alert('비밀번호가 잘못되었습니다. 강사님께 확인 부탁드립니다.');
-
-};

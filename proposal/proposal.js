@@ -79,13 +79,3 @@ proposal.save_pdf = function ()
 
     $('#pdf_viewer').hide();
 };
-
-proposal.next = function ()
-{
-    var inputStr = prompt('다음 챕터로 넘기는 비밀번호를 입력하세요.', '');
-    if (inputStr == common.password.proposal)
-        common.gotoURL(common.nextURL.proposal);
-    else
-        alert('비밀번호가 잘못되었습니다. 강사님께 확인 부탁드립니다.');
-
-};

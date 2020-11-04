@@ -20,13 +20,13 @@ var common = function ()
             },
         'eye':
             {
-                'password': '2367',
+                'password': '0000',
                 'url': window.location.protocol + '//' + window.location.host + '/eye/',
                 'next': 'flappy'
             },
         'flappy':
             {
-                'password': '9643',
+                'password': '4321',
                 'url': 'https://studio.code.org/projects/flappy/new'
             }
     };

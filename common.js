@@ -22,7 +22,7 @@ var common = function ()
             {
                 'password': '2367',
                 'url': window.location.protocol + '//' + window.location.host + '/eye/',
-                'next': 'proposal'
+                'next': 'flappy'
             },
         'flappy':
             {

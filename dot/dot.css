@@ -23,3 +23,14 @@
 .commands-up {background-color: #ffd800;}
 .commands-down {background-color: #697cf1;}
 .commands-write {background-color: #e5b4e8;}
+
+.dot-start-font {
+    color : gray;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 900px) {
+    .dot-start-font {
+        font-size: 0.6em;
+    }
+}

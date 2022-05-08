@@ -28,13 +28,19 @@ var common = function ()
             {
                 'password': '4321',
                 'url': 'https://studio.code.org/projects/flappy/new'
+            },
+        'piano':
+            {
+                'password': '5702',
+                'url': 'https://scratch.mit.edu/projects/247931071/editor'
             }
     };
 };
 
 common.gotoURL = function (url)
 {
-    location.href = url;
+    //location.href = url;
+    window.open(url);
 };
 
 common.gotoList = function(nextDir)

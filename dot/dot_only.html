@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>도트 그리기</title>
+    <link rel="stylesheet" href="../files/bootstrap-4/css/bootstrap.min.css">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script-->
+    <script src="../files/jquery-2.1.4.min.js"></script>
+    <script src="../files/bootstrap-4/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../files/ie8-responsive-file-warning.js"></script>
+    <script src="../files/html5shiv.min.js"></script>
+    <script src="../files/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="dot.css?ver=1.0.1">
+    <script src="../common.js?ver=1.0.1"></script>
+    <script src="dot.js?ver=1.0.1"></script>
+</head>
+<body>
+<p></p>
+<p></p>
+<div class="container row">
+    <div id="canvas-commnad" class="col-12 col-md-4"></div>
+    <div id="dots" class="col-12 col-md-8">
+        <table id="tbl-dots" class="table table-bordered"></table>
+        <div class="w-100">
+            <button class="btn btn-lg btn-primary" onclick="dot.reset()">초기화</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

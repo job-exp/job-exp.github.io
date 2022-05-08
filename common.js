@@ -33,7 +33,13 @@ var common = function ()
             {
                 'password': '5702',
                 'url': 'https://scratch.mit.edu/projects/247931071/editor'
-            }
+            },
+        'dot_only':
+            {
+                'password': '6703',
+                'url': window.location.protocol + '//' + window.location.host + '/dot/dot_only.html',
+                'next': 'proposal'
+            },
     };
 };
 

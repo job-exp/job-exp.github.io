@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cf9328-c9a0-4705-995e-8147ce276af7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dot/dot_only.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -20,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -118,7 +119,8 @@
       <workItem from="1604472160622" duration="19000" />
       <workItem from="1639119403118" duration="451000" />
       <workItem from="1643593468082" duration="12000" />
-      <workItem from="1651969673123" duration="179000" />
+      <workItem from="1651969673123" duration="357000" />
+      <workItem from="1651970404274" duration="176000" />
     </task>
     <servers />
   </component>

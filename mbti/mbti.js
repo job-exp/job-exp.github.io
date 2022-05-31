@@ -93,13 +93,16 @@ var mbti = function ()
 mbti.write = function ()
 {
     var str = "";
-    var i = (this_step == 0 ? 0 : mbti.page[this_step - 1]);
-    for ( var i ; i < mbti.page[this_step]; i++)
+    for (var i = (this_step == 0 ? 0 : mbti.page[this_step - 1]); i < mbti.page[this_step]; i++)
     {
         str += "<div class='w-100'>"+ mbti.data[i][0] + "</div>";
-        str += "<div class='w-100' style='padding-left: 10px'>";
-        str += mbti.data[i][1][1];
-        str += "</div>";
+        for (var j = 1; j <= 2; j++ )
+        {
+            str += "<div class='w-100' style='padding-left: 10px'>";
+            str += mbti.data[i][j][1];
+            str += "</div>";
+        }
+
         str += "<p>&nbsp;</p>";
     }
 

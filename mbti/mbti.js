@@ -1,17 +1,27 @@
 var this_step = 0;
+var result = [];
+
 $(document).ready(function ()
 {
     mbti();
-    mbti.write();
+    mbti.write(0);
 });
 
 var mbti = function ()
 {
-    mbti.page = [5, 10, 15, 17, 23, 29, 35, 41, 46, 51, 56, 58, 64, 70, 73, 78, 83, 85, 91, 93]; // 한 페이지 문제
-    mbti.step = [
-        [17, '자신에게 자연스럽고, 습관처럼 편안하게 느껴지며, 자주 행동하는 경향에 더 가깝다고 생각되는 것을 선택하세요.'],
-        [41, '각각의 낱말이 주는 이미지나 어감이 아닌, 의미상 자신에게 더 가깝다고 생각되는 낱말을 선택하여 표시하세요.']
-    ]; // 문제에 따른 상위 설명
+    mbti.question = [0, 0];
+    mbti.page = [
+        [1, 0], [6, 0], [11, 0], [16, 0],
+        [18, 1], [24, 1], [30, 1], [36, 1],
+        [42, 0], [47, 0], [52, 0], [57, 0],
+        [59, 1], [65, 1], [71, 1],
+        [74, 0], [79, 0], [84, 0],
+        [86, 1], [92, 1]
+    ]; // 한 페이지 문제, 설명 타입
+    mbti.info = [
+        '자신에게 자연스럽고, 습관처럼 편안하게 느껴지며, 자주 행동하는 경향에 더 가깝다고 생각되는 것을 선택하세요.',
+        '각각의 낱말이 주는 이미지나 어감이 아닌, 의미상 자신에게 더 가깝다고 생각되는 낱말을 선택하여 표시하세요.'
+    ];
 
     // 문제 리스트
     mbti.data = [
@@ -84,32 +94,345 @@ var mbti = function ()
             ['E', '다른 사람들과 함께 보내는 편이다.']
         ],
 
+
         ['', ['I', '개인적인'], ['E', '개방적인']],
         ['', ['J', '계획된'], ['P', '계획되지 않은']],
-    ]
+        ['', ['N', '추상적인'], ['S', '실질적인']],
+        ['', ['F', '온화한'], ['T', '강건한']],
+        ['', ['T', '사고'], ['F', '감정']],
+        ['', ['S', '사실'], ['N', '아이디어']],
+        ['', ['I', '조용한'], ['E', '활달한']],
+        ['', ['J', '계획에 따른'], ['P', '상황에 따른']],
+        ['', ['N', '추론'], ['S', '확실']],
+        ['', ['F', '배려하는'], ['T', '공정한']],
+        ['', ['T', '설득시킴'], ['F', '감동시킴']],
+        ['', ['S', '사실적 진술'], ['N', '추상적 개념']],
+        ['', ['I', '말이 별로 없는'], ['E', '말로 쉽게 표현하는']],
+        ['', ['J', '규칙적인'], ['P', '느긋한']],
+        ['', ['N', '아이디어'], ['S', '실제']],
+        ['', ['F', '땨뜻한 마음'], ['T', '예리한 사고']],
+        ['', ['T', '유익함'], ['F', '베풂']],
+        ['', ['S', '현실적인'], ['N', '이론적인']],
+        ['', ['I', '소수의 친구'], ['E', '다수의 친구']],
+        ['', ['J', '체계적인'], ['P', '자발적인']],
+        ['', ['N', '상상'], ['S', '사실']],
+        ['', ['F', '온정적인'], ['T', '객관적인']],
+        ['', ['T', '객관적인'], ['F', '감성적인']],
+        ['', ['S', '만들다.'], ['N', '창안하다.']],
 
+        ['일주일 안에 마무리 지어야할 큰 일을 시작할 때, 나는',
+            ['J', '시간을 내어 일의 목록과 처리 순서를 먼저 정한다.'],
+            ['P', '바로 뛰어들어 일부터 시작한다.']
+        ],
+        ['여행을 계획할 때, 나는 대체로',
+            ['P', '그날그날 하고 싶은 대로 하는 편이다.'],
+            ['J', '미리 무엇을 할지 정해놓는 편이다.']
+        ],
+        ['대부분의 사람들이 일상적으로 하는 일을, 나는',
+            ['S', '그 사람들이 해오던 방식대로 하는 편이다.'],
+            ['N', '새롭게 내 방식을 찾아서 하는 편이다.']
+        ],
+        ['나를 처음 만나는 사람들은 나의 관심이 무엇인가를',
+            ['E', '금방 아는 편이다.'],
+            ['I', '나를 잘 알고 난 후에 아는 편이다.']
+        ],
+        ['나는 대체로',
+            ['N', '개념과 원리를 다루는 과목을 좋아하는 편이다.'],
+            ['S', '사실과 숫자를 다루는 과목을 좋아하는 편이다.']
+        ],
+        ['나에게 더 좋은 칭찬으로 들리는 것은',
+            ['F', '감정에 솔직한 사람으로 불리는 것이다.'],
+            ['T', '항상 랍리적인 사람으로 불리는 것이다.']
+        ],
+        ['나는 계획에 따라 생활하는 것이',
+            ['P', '때로 필요하다고 생각하지만 별로 선호하지 않는 편이다.'],
+            ['J', '도움이 되기 때문에 대부분의 경우 선호하는 편이다.']
+        ],
+        ['여러 사람들과 함께 있을 때 나는 대체로',
+            ['I', '잘 아는 사람과 개인적으로 대화를 나누는 편이다.'],
+            ['E', '여러 사람들과 함께 어울려 대화를 나누는 편이다.']
+        ],
+        ['여러 사람과 함께 있을 때, 나는',
+            ['E', '에너지가 충전이 되는 편이다.'],
+            ['I', '자주 에너지가 소진 되는 편이다.']
+        ],
+        ['나는 대체로',
+            ['J', '사회샹활에 필요한 약속을 미리 해두는 편이다.'],
+            ['P', '그때 상황에 맞춰 자유롭게 처리하는 편이다.']
+        ],
+        ['큰 과제를 맡았을 때, 나는',
+            ['P', '우선 일을 진행하면서 필요한 사항을 알아가는 편이다.'],
+            ['J', '먼저 일을 단계적으로 나누어 시작하는 편이다.']
+        ],
+        ['나는 친묵회나 모임을',
+            ['J', '미리 여유 있게 계획하는 편이다.'],
+            ['P', '상황에 따라 즐길 수 있도록 자유롭게 두는 편이다.']
+        ],
+        ['나는',
+            ['S', '이미 만들어진 기존 방식을 지지하는 편이다.'],
+            ['N', '기존 방식의 개선할 점을 파악하고 대안을 제시하는 편이다.']
+        ],
+        ['나는 대체로',
+            ['E', '다른 사람들과 잘 어울리는 편이다.'],
+            ['I', '혼자서 잘 지내는 편이다.']
+        ],
+        ['독서를 할 때, 나는',
+            ['N', '독특하고 독창적인 내용을 즐기는 편이다.'],
+            ['S', '뜻하는 바가 정확한 내용을 좋아하는 편이다.']
+        ],
+        ['내가 함께 일하고 싶은 윗사람(교사)은',
+            ['F', '일관성은 부족하나 인간성이 좋은 사람이다.'],
+            ['T', '비판적이긴 하나 항상 일관성이 있는 사람이다.']
+        ],
+        ['나는 친목회나 모임에서',
+            ['I', '때때로 지루해 하는 편이다.'],
+            ['E', '대체로 즐거운 편이다.']
+        ],
+
+
+        ['', ['N', '상상의 세계'], ['S', '현실의 세계']],
+        ['', ['F', '관대한'], ['T', '확고한']],
+        ['', ['T', '공정한'], ['F', '돌보는']],
+        ['', ['S', '생산'], ['N', '기획']],
+        ['', ['N', '가능성'], ['S', '확실성']],
+        ['', ['F', '온화함'], ['T', '강인함']],
+        ['', ['T', '실질적인'], ['F', '감상적인']],
+        ['', ['S', '직접 만들다'], ['N', '아이디어를 내다']],
+        ['', ['N', '새로운'], ['S', '이미 알려진']],
+        ['', ['F', '동정하다.'], ['T', '분석하다.']],
+        ['', ['T', '의지가 강한'], ['F', '인정이 많은']],
+        ['', ['S', '구체적인'], ['N', '추상적인']],
+        ['', ['F', '헌신.'], ['T', '결단.']],
+        ['', ['T', '유능한'], ['F', '친절한']],
+        ['', ['S', '실용적인'], ['N', '창의적인']],
+
+
+        ['주말에 끝내야 하는 일의 목록을 작성할 때, 나는',
+            ['J', '즐겁게 작성하는 편이다.'],
+            ['P', '생각하면 부담스럽다.']
+        ],
+        ['나는 일상생활에서',
+            ['P', '시간을 다투는 긴박한 상황에서 일하는 것을 즐기는 편이다.'],
+            ['J', '시간의 압박을 피하기 위해 대체로 미리 계획을 세우는 편이다.']
+        ],
+        ['내가 만일 교사라면',
+            ['S', '현실에 적용될 수 있는 경험적인 과목을 가르치고 싶다.'],
+            ['N', '개념을 다루는 이론 과목을 가르치고 싶다.']
+        ],
+        ['나는 친목회나 모임에서',
+            ['E', '이야기를 많이 하는 편이다.'],
+            ['I', '다른 사람들의 이야기를 듣는 편이다.']
+        ],
+        ['나는',
+            ['N', '기발하고 영특한 사람에게 끌린다.'],
+            ['S', '상식이 풍부하고 실제적인 사람에게 끌린다.']
+        ],
+        ['나에게 있어 더 나은 칭찬은',
+            ['F', '온정적인 사람이라고 불리는 것이다.'],
+            ['T', '능력이 있는 사람이라고 불리는 것이다.']
+        ],
+        ['일반적으로 나는 모임에서',
+            ['I', '어떤 사람들하고는 대화를 시작하고 이어가는 것이 쉽지 않다.'],
+            ['E', '거의 모든 사람들과 오랫동안 이야기를 지속하는 것이 쉬운 편이다.']
+        ],
+        ['대부분의 사람들은 나에 대해서',
+            ['E', '매우 개방적인 사람이라고 말할 것이다.'],
+            ['I', '자신의 속마음을 잘 드러내지 않는 사람이라고 말할 것이다.']
+        ],
+        ['나는',
+            ['E', '누구하고나 쉽게 이야기를 하는 편이다.'],
+            ['I', '특정한 사람 혹은 어떤 상황에서만 이야기를 많이 하는 편이다.']
+        ],
+        ['어떤 결정을 내릴 때, 나에게 중요한 것은',
+            ['F', '사람들의 감정과 의견을 고려하는 것이다.'],
+            ['T', '사실을 검토하는 것이다.']
+        ],
+        ['나는 대체로',
+            ['P', '그날의 상황에 따라 일을 처리하는 편이다.'],
+            ['J', '정해진 계획에 따라 일을 처리하는 편이다.']
+        ],
+        ['일정한 주제가 없는 대화를 지속하려면, 나는',
+            ['I', '오직 나와 관심분야가 비슷한 사람들과 가능하다.'],
+            ['E', '거의 대부분의 사람들과 가능하다.']
+        ],
+
+
+        ['', ['I', '조용한'], ['E', '사교적인']],
+        ['', ['J', '결단'], ['P', '충동']],
+        ['', ['N', '이론'], ['S', '사실']],
+        ['', ['F', '동정적인'], ['T', '논리적인']],
+        ['', ['T', '분석적인'], ['F', '감상적인']],
+        ['', ['S', '분별있는'], ['N', '매력있는']],
+        ['', ['I', '조용한'], ['E', '활기찬']],
+        ['', ['J', '계획적인'], ['P', '자유로운']],
+
+    ];
 };
 
 mbti.write = function ()
 {
     var str = "";
-    for (var i = (this_step == 0 ? 0 : mbti.page[this_step - 1]); i < mbti.page[this_step]; i++)
+    mbti.question[0] = mbti.page[this_step][0]; // 첫 질문 번호;
+    mbti.question[1] = (this_step == mbti.page.length - 1 ? mbti.data.length: mbti.page[this_step + 1][0] - 1); // 마지막 질문 번호
+
+
+
+    var question = mbti.question[0]; // 첫 질문 번호
+    var max_quest = mbti.question[1]; // 마지막 질문 번호
+
+
+    // 상위 설명
+    str += "<div class='w-100'>"+ mbti.info[mbti.page[this_step][1]] +"</div>";
+    str += "<p>&nbsp;</p>";
+    str += "<p>&nbsp;</p>";
+
+    // 질문 리스트 쓰기
+    for (question; question <= max_quest; question++)
     {
-        str += "<div class='w-100'>"+ mbti.data[i][0] + "</div>";
-        for (var j = 1; j <= 2; j++ )
+        str += "<div class='w-100'><h4>" + question + ". "+ mbti.data[question - 1][0] + "</h4></div>";
+        for (var i = 1; i <= 2; i++ )
         {
-            str += "<div class='w-100' style='padding-left: 10px'>";
-            str += mbti.data[i][j][1];
+            str += "<div class='form-check'>";
+            str += "<input class='form-check-input' type='radio' name='list"+ question + "' id='list"+ question + "_" + i + "' ";
+            str += "onchange='mbti.select("+ question+ ", \""+ mbti.data[question - 1][i][0] +"\")'>";
+            str += "<label class='form-check-label' for='list"+ i + "_" + i + "'>";
+            str += mbti.data[question - 1][i][1];
+            str += "</label>";
             str += "</div>";
         }
 
         str += "<p>&nbsp;</p>";
     }
 
+    str += "<div class='w-100'>";
+    str += "<button class='btn btn-lg btn-primary' onclick='mbti.next()'>다음단계</button>";
+    str += "</div>";
+
     $("#document").html(str);
+};
+
+mbti.select = function (num, data)
+{
+    result[num] = data;
 };
 
 mbti.next = function ()
 {
+    for (var i = mbti.question[0]; i <= mbti.question[1]; i++)
+    {
+        if (!result[i])
+        {
+            alert( i + '번 항목을 선택해주세요.');
+            return;
+        }
+    }
 
+    if ( mbti.question[1] == mbti.data.length)
+    {
+        mbti.writeResult();
+        return;
+    }
+
+    this_step++;
+    mbti.write();
+};
+
+mbti.writeResult = function ()
+{
+    var mbtiType = [['E', 'I'], ["S", 'N'], ['T', 'F'], ['J', 'P']];
+    var mbtiResult = [];
+    var yourType = '';
+
+    for (var i = 0; i < mbtiType.length; i++)
+    {
+        for (var j = 0; j < mbtiType[i].length; j++)
+        {
+            mbtiResult[mbtiType[i][j]] = 0;
+        }
+    }
+
+    for (i = 0; i < result.length; i++)
+    {
+        mbtiResult[result[i]]++;
+    }
+
+
+    for (i = 0; i < mbtiType.length; i++)
+    {
+        if (mbtiResult[mbtiType[i][0]] > mbtiResult[mbtiType[i][1]])
+            yourType += mbtiType[i][0];
+        else
+            yourType += mbtiType[i][1];
+    }
+
+    var tr_class = ['primary', 'success', 'danger' ,'warning'];
+    var type_sum = 0;
+    var str = "";
+    str += "<h3>당신은 "+ yourType + " 타입입니다.</h3>";
+    str += "<table class='table table-borderless'>";
+
+    str += "<thead><col width='20' /><col /><col width='20' /></thead>";
+    str += "<tbody>";
+    for (i = 0; i < mbtiType.length; i++)
+    {
+        str += "<tr>";
+            str += "<td class='fs-3 ";
+
+            if (mbtiResult[mbtiType[i][0]] > mbtiResult[mbtiType[i][1]])
+                str += "text-"+ tr_class[i];
+            else
+                str += "text-secondary";
+
+            str += "'>"+ mbtiType[i][0] +"</td>";
+            str += "<td>";
+                str += "<table class='table table-borderless'>";
+                str += "<tr>";
+                    type_sum = mbtiResult[mbtiType[i][0]] + mbtiResult[mbtiType[i][1]];
+                    if (mbtiResult[mbtiType[i][0]] > 0)
+                    {
+                        str += "<td ";
+                        str += "width='"+ (mbtiResult[mbtiType[i][0]] / type_sum) * 100 + "%' ";
+                        if (mbtiResult[mbtiType[i][0]] > mbtiResult[mbtiType[i][1]])
+                            str += "class='table-"+ tr_class[i] + "' ";
+                        else
+                            str += "class='table-secondary' ";
+                        str += ">";
+                        str += "<span class='fs-5'>&nbsp;</span></td>";
+                    }
+
+                    if (mbtiResult[mbtiType[i][1]] > 0)
+                    {
+                        str += "<td ";
+                        str += "width='"+ (mbtiResult[mbtiType[i][1]] / type_sum) * 100 + "%' ";
+                        if (mbtiResult[mbtiType[i][1]] > mbtiResult[mbtiType[i][0]])
+                            str += "class='table-"+ tr_class[i] + "' ";
+                        else
+                            str += "class='table-secondary' ";
+                        str += ">";
+                        str += "<span class='fs-5'>&nbsp;</span></td>";
+                    }
+
+                str += "</tr>";
+                str += "</table>";
+            str += "</td>";
+
+            str += "<td class='fs-3 ";
+
+            if (mbtiResult[mbtiType[i][1]] > mbtiResult[mbtiType[i][0]])
+                str += "text-"+ tr_class[i];
+            else
+                str += "text-secondary";
+
+            str += "'>"+ mbtiType[i][1] +"</td>";
+        str += "</tr>";
+    }
+
+    str += "</tbody>";
+    str += "</table>";
+
+    str += "<a class='btn btn-primary' href='";
+    str += "https://saram.assesta.com/OptimumMobile/" + yourType;
+    str += "' role='button' target='_blank'>결과 보러가기</a>";
+
+    $("#document").html(str);
 };

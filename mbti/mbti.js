@@ -110,7 +110,7 @@ var mbti = function ()
         ['', ['I', '말이 별로 없는'], ['E', '말로 쉽게 표현하는']],
         ['', ['J', '규칙적인'], ['P', '느긋한']],
         ['', ['N', '아이디어'], ['S', '실제']],
-        ['', ['F', '땨뜻한 마음'], ['T', '예리한 사고']],
+        ['', ['F', '따뜻한 마음'], ['T', '예리한 사고']],
         ['', ['T', '유익함'], ['F', '베풂']],
         ['', ['S', '현실적인'], ['N', '이론적인']],
         ['', ['I', '소수의 친구'], ['E', '다수의 친구']],
@@ -142,7 +142,7 @@ var mbti = function ()
         ],
         ['나에게 더 좋은 칭찬으로 들리는 것은',
             ['F', '감정에 솔직한 사람으로 불리는 것이다.'],
-            ['T', '항상 랍리적인 사람으로 불리는 것이다.']
+            ['T', '항상 합리적인 사람으로 불리는 것이다.']
         ],
         ['나는 계획에 따라 생활하는 것이',
             ['P', '때로 필요하다고 생각하지만 별로 선호하지 않는 편이다.'],
@@ -157,7 +157,7 @@ var mbti = function ()
             ['I', '자주 에너지가 소진 되는 편이다.']
         ],
         ['나는 대체로',
-            ['J', '사회샹활에 필요한 약속을 미리 해두는 편이다.'],
+            ['J', '사회생활에 필요한 약속을 미리 해두는 편이다.'],
             ['P', '그때 상황에 맞춰 자유롭게 처리하는 편이다.']
         ],
         ['큰 과제를 맡았을 때, 나는',
@@ -376,54 +376,16 @@ mbti.writeResult = function ()
     for (i = 0; i < mbtiType.length; i++)
     {
         str += "<tr>";
-            str += "<td class='fs-3 ";
-
-            if (mbtiResult[mbtiType[i][0]] > mbtiResult[mbtiType[i][1]])
-                str += "text-"+ tr_class[i];
-            else
-                str += "text-secondary";
-
-            str += "'>"+ mbtiType[i][0] +"</td>";
-            str += "<td>";
-                str += "<table class='table table-borderless'>";
-                str += "<tr>";
-                    type_sum = mbtiResult[mbtiType[i][0]] + mbtiResult[mbtiType[i][1]];
-                    if (mbtiResult[mbtiType[i][0]] > 0)
-                    {
-                        str += "<td ";
-                        str += "width='"+ (mbtiResult[mbtiType[i][0]] / type_sum) * 100 + "%' ";
-                        if (mbtiResult[mbtiType[i][0]] > mbtiResult[mbtiType[i][1]])
-                            str += "class='table-"+ tr_class[i] + "' ";
-                        else
-                            str += "class='table-secondary' ";
-                        str += ">";
-                        str += "<span class='fs-5'>&nbsp;</span></td>";
-                    }
-
-                    if (mbtiResult[mbtiType[i][1]] > 0)
-                    {
-                        str += "<td ";
-                        str += "width='"+ (mbtiResult[mbtiType[i][1]] / type_sum) * 100 + "%' ";
-                        if (mbtiResult[mbtiType[i][1]] > mbtiResult[mbtiType[i][0]])
-                            str += "class='table-"+ tr_class[i] + "' ";
-                        else
-                            str += "class='table-secondary' ";
-                        str += ">";
-                        str += "<span class='fs-5'>&nbsp;</span></td>";
-                    }
-
-                str += "</tr>";
-                str += "</table>";
-            str += "</td>";
-
-            str += "<td class='fs-3 ";
-
-            if (mbtiResult[mbtiType[i][1]] > mbtiResult[mbtiType[i][0]])
-                str += "text-"+ tr_class[i];
-            else
-                str += "text-secondary";
-
-            str += "'>"+ mbtiType[i][1] +"</td>";
+        str += writeTypeName(mbtiResult[mbtiType[i][0]], mbtiResult[mbtiType[i][1]], mbtiType[i][0], tr_class[i]);
+        str += "<td>";
+            str += "<table class='table table-borderless'>";
+            str += "<tr>";
+            str += writeTypeValue(mbtiResult[mbtiType[i][0]], mbtiResult[mbtiType[i][1]], tr_class[i]);
+            str += writeTypeValue(mbtiResult[mbtiType[i][1]], mbtiResult[mbtiType[i][0]], tr_class[i]);
+            str += "</tr>";
+            str += "</table>";
+        str += "</td>";
+        str += writeTypeName(mbtiResult[mbtiType[i][1]], mbtiResult[mbtiType[i][0]], mbtiType[i][1], tr_class[i]);
         str += "</tr>";
     }
 
@@ -435,4 +397,43 @@ mbti.writeResult = function ()
     str += "' role='button' target='_blank'>결과 보러가기</a>";
 
     $("#document").html(str);
+
+    // 타입 이름 쓰기
+    function writeTypeName(this_type, other_type, type_name, type_color)
+    {
+        var this_str = "";
+        this_str += "<td class='fs-3 ";
+        if (this_type > other_type)
+            this_str += "text-"+ type_color;
+        else
+            this_str += "text-secondary";
+
+        this_str += "'>"+ type_name +"</td>";
+
+        return this_str;
+    }
+
+    // 타입 값 쓰기
+    function writeTypeValue(this_type, other_type, type_color)
+    {
+        var this_str = "";
+        var type_sum = this_type + other_type;
+
+        if (this_type > 0)
+        {
+            this_str += "<td ";
+            this_str += "width='"+ (this_type / type_sum) * 100 + "%' ";
+            if (this_type > other_type)
+                this_str += "class='table-"+ type_color + "' ";
+            else
+                this_str += "class='table-secondary' ";
+            this_str += ">";
+            this_str += "<span class='fs-5 text-center'>"+ parseInt(this_type / type_sum * 10) * 10 +"%</span></td>";
+        }
+
+        return this_str;
+    }
+
+    console.log(mbtiResult['T']);
+    console.log(mbtiResult['F']);
 };

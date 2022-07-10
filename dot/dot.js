@@ -34,11 +34,12 @@ dot.loadCommnad = function ()
         str += dot.writeDiv(command.substr(i, 1));
     }
     $('#canvas-commnad').html(str);
+    console.log(str);
 };
 
 dot.writeDiv = function (type)
 {
-    var str = '<div class="commands commands-';
+    var str = '<div class="col commands commands-';
     switch (type)
     {
         case 'r': str += 'right">&#8594;'; break;

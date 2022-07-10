@@ -9,20 +9,22 @@ var common = function ()
         'dot':
             {
                 'password': '0690',
-                'url': window.location.protocol + '//' + window.location.host + '/dot/',
-                'next': 'proposal'
+                'url': window.location.protocol + '//' + window.location.host + '/dot/'
             },
         'proposal':
             {
                 'password': '7803',
-                'url': window.location.protocol + '//' + window.location.host + '/proposal/',
-                'next': 'flappy'
+                'url': window.location.protocol + '//' + window.location.host + '/proposal/'
             },
         'eye':
             {
                 'password': '0000',
-                'url': window.location.protocol + '//' + window.location.host + '/eye/',
-                'next': 'flappy'
+                'url': window.location.protocol + '//' + window.location.host + '/eye/'
+            },
+        'hanoi':
+            {
+                'password': '8910',
+                'url': window.location.protocol + '//' + window.location.host + '/hanoi/'
             },
         'flappy':
             {
@@ -33,12 +35,6 @@ var common = function ()
             {
                 'password': '5702',
                 'url': 'https://scratch.mit.edu/projects/247931071/editor'
-            },
-        'dot_only':
-            {
-                'password': '6703',
-                'url': window.location.protocol + '//' + window.location.host + '/dot/dot_only.html',
-                'next': 'proposal'
             },
     };
 };

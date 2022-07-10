@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>하노이의 탑 퍼즐</title>
+    <link rel="stylesheet" href="../files/bootstrap-4/css/bootstrap.min.css">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script-->
+    <script src="../files/jquery-2.1.4.min.js"></script>
+    <script src="../files/bootstrap-4/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../files/ie8-responsive-file-warning.js"></script>
+    <script src="../files/html5shiv.min.js"></script>
+    <script src="../files/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../common.css?ver=1.0.2">
+    <link rel="stylesheet" href="hanoi.css?ver=1.0.1">
+    <script src="../common.js?ver=1.0.2"></script>
+    <script src="hanoi.js?ver=1.0.1"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">하노이의 탑 퍼즐</h1>
+    <div class="gameWarp">
+        <div class="columns" id="column0">
+            <div class="poles">
+            </div>
+            <div class="diskHolder grab"><div class="disks" id="grab0"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk00"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk10"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk20"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk30"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk40"></div></div>
+        </div>
+        <div class="columns" id="column1">
+            <div class="poles">
+            </div>
+            <div class="diskHolder grab"><div class="disks" id="grab1"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk01"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk11"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk21"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk31"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk41"></div></div>
+        </div>
+        <div class="columns" id="column2">
+            <div class="poles">
+            </div>
+            <div class="diskHolder grab"><div class="disks" id="grab2"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk02"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk12"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk22"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk32"></div></div>
+            <div class="diskHolder"><div class="disks" id="disk42"></div></div>
+        </div>
+        <div class="ground"></div>
+        <!--div class="status">
+            <div class="statusElement" id="moveDiv"><p>이동 : <span id="move">0</span></p></div>
+            <div class="statusElement" id="messageDiv"><p><span id="message"></span></p></div>
+            <div class="statusElement" id="restartDiv"><p>재시작</p></div>
+        </div-->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="alert" role="alert" id="message"></div>
+            </div>
+            <!--div class="col">
+                <div id="moveDiv"><p>이동 : <span id="move">0</span></p></div>
+            </div-->
+            <div class="col-12">
+                <button class="btn btn-lg btn-block btn-primary" onclick="hanoi.init()">재시작</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

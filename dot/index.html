@@ -14,20 +14,26 @@
     <script src="../files/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="dot.css?ver=1.0.1">
-    <script src="../common.js?ver=1.0.1"></script>
-    <script src="dot.js?ver=1.0.1"></script>
+    <link rel="stylesheet" href="../common.css?ver=1.0.2">
+    <link rel="stylesheet" href="dot.css?ver=1.0.2">
+    <script src="../common.js?ver=1.0.2"></script>
+    <script src="dot.js?ver=1.0.2"></script>
 </head>
 <body>
 <p></p>
 <p></p>
-<div class="container row">
-    <div id="canvas-commnad" class="col-12 col-md-4"></div>
-    <div id="dots" class="col-12 col-md-8">
-        <table id="tbl-dots" class="table table-bordered"></table>
-        <div class="w-100">
-            <button class="btn btn-lg btn-primary" onclick="dot.reset()">초기화</button>
-            <button class="btn btn-lg btn-info" onclick="common.next('dot')">다음으로 넘어가기</button>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-xl-4">
+            <div id="canvas-commnad" class="row"></div>
+        </div>
+        <!--div id="canvas-commnad" class="col-12 col-xl-4"></div-->
+        <div id="dots" class="col-12 col-xl-8">
+            <table id="tbl-dots" class="table table-bordered"></table>
+        </div>
+
+        <div class="w-100 btn-wrap">
+            <button class="btn btn-lg btn-block btn-primary" onclick="dot.reset()">초기화</button>
         </div>
     </div>
 </div>

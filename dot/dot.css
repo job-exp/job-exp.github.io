@@ -1,7 +1,10 @@
+
+
 #tbl-dots td {
-    min-width: 50px;
-    max-width: 50px;
-    height: 50px;
+    min-width: 80px;
+    max-width: 80px;
+    height: 80px;
+    border:1px solid #000000;
 }
 
 #tbl-dots td.selected {
@@ -9,13 +12,47 @@
 }
 
 .commands {
-    width: 30px;
-    height: 30px;
+    min-width: 40px;
+    max-width: 40px;
     text-align: center;
     font-size: 18px;
     float: left;
     margin: 5px;
     padding: 3px;
+    display: block;
+}
+
+.dot-start-font {
+    color : gray;
+    font-size: 1em;
+}
+
+@media screen and (max-device-width: 1366px) {
+    .container
+    {
+        margin: 5px;
+    }
+
+    #tbl-dots td {
+        min-width: 80px;
+        max-width: 80px;
+        height: 80px;
+    }
+
+    .commands {
+        min-width: 80px;
+        max-width: 80px;
+        height: 60px;
+        font-size: 35px;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    .dot-start-font {
+        color : gray;
+        font-size: 1.2em;
+    }
+
 }
 
 .commands-left {background-color: #7ff36b;}
@@ -24,13 +61,9 @@
 .commands-down {background-color: #697cf1;}
 .commands-write {background-color: #e5b4e8;}
 
-.dot-start-font {
-    color : gray;
-    font-size: 1em;
-}
 
 @media screen and (max-width: 900px) {
-    .dot-start-font {
-        font-size: 0.6em;
-    }
+
 }
+
+/*1140*/

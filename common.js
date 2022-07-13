@@ -6,35 +6,35 @@ $(document).ready(function ()
 var common = function ()
 {
     common.data = {
-        'dot':
-            {
-                'password': '0690',
-                'url': window.location.protocol + '//' + window.location.host + '/dot/'
-            },
         'proposal':
             {
-                'password': '7803',
+                'password': '0000',
                 'url': window.location.protocol + '//' + window.location.host + '/proposal/'
             },
         'eye':
             {
-                'password': '0000',
+                'password': '1111',
                 'url': window.location.protocol + '//' + window.location.host + '/eye/'
+            },
+        'dot':
+            {
+                'password': '0528',
+                'url': window.location.protocol + '//' + window.location.host + '/dot/'
             },
         'hanoi':
             {
-                'password': '8910',
+                'password': '7201',
                 'url': window.location.protocol + '//' + window.location.host + '/hanoi/'
-            },
-        'flappy':
-            {
-                'password': '4321',
-                'url': 'https://studio.code.org/projects/flappy/new'
             },
         'piano':
             {
-                'password': '5702',
+                'password': '7021',
                 'url': 'https://scratch.mit.edu/projects/247931071/editor'
+            },
+        'flappy':
+            {
+                'password': '3110',
+                'url': 'https://studio.code.org/projects/flappy/new'
             },
     };
 };

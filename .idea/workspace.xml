@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cf9328-c9a0-4705-995e-8147ce276af7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hanoi/hanoi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hanoi/hanoi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hanoi/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot/dot.css" beforeDir="false" afterPath="$PROJECT_DIR$/dot/dot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot/dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/dot/dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot/dot_only.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +124,8 @@
       <workItem from="1654244448764" duration="8698000" />
       <workItem from="1654319290059" duration="1629000" />
       <workItem from="1657327821085" duration="18892000" />
-      <workItem from="1657412842975" duration="1068000" />
+      <workItem from="1657412842975" duration="2033000" />
+      <workItem from="1657692270338" duration="701000" />
     </task>
     <servers />
   </component>

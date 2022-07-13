@@ -47,9 +47,8 @@ hanoi.inputNum = function()
     else
     {
         alert("블럭은 2개에서 5개까지 가능합니다.");
+        return false;
     }
-
-    hanoi.inputNum();
 };
 
 hanoi.init = function()
@@ -60,6 +59,7 @@ hanoi.init = function()
     hanoi.message.removeClass("alert-primary");
     hanoi.message.addClass("alert-primary");
     hanoi.NUM_OF_DISKS = hanoi.inputNum();
+    if (!hanoi.NUM_OF_DISKS) hanoi.init();
 
     hanoi.column = new Array(hanoi.NUM_OF_COLUMNS);
     hanoi.grab = new Array(hanoi.NUM_OF_COLUMNS);
@@ -206,6 +206,7 @@ hanoi.dropDisk = function(columnNum)
         hanoi.grabData.isGrab = false;
         hanoi.diskData[hanoi.NUM_OF_DISKS_MAX - 1][columnNum] = hanoi.grabData.diskValue;
         hanoi.clearGrab();
+
         return;
     }
     for(var i = 0 ; i < hanoi.NUM_OF_DISKS_MAX ; i++){
@@ -213,6 +214,7 @@ hanoi.dropDisk = function(columnNum)
             hanoi.grabData.isGrab = false;
             hanoi.diskData[i-1][columnNum] = hanoi.grabData.diskValue;
             hanoi.clearGrab();
+
             break;
         }
     }

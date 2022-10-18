@@ -36,6 +36,11 @@ var common = function ()
                 'password': '3110',
                 'url': 'https://studio.code.org/projects/flappy/new'
             },
+        'starwars':
+            {
+                'password' : '9001',
+                'url': 'https://studio.code.org/projects/starwarsblocks/new'
+            },
     };
 };
 
